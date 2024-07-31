@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movies search</title>
+</head>
+<body>
+  <header class="header">
+    <!--navbar-->
+    <nav>
+        <div id="logo">
+            <a href="">
+                <i class="fas fa-film"></i>
+                <span class="logo-text">
+                    MOVIES
+                </span>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <!-- enlace interno al documento html -->
+                <a href="#top-rated" >Tendencias</a>
+                
+            </li>
+            <li>
+                <a href="#">Registrarse</a>
+            </li>
+            <li>
+                <!-- Enlace externo -->
+                <a href="#" class="btn-cac">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span class="login-text">
+                        Iniciar sesión
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+  </header>
+<!--banner-->
+    <section id="banner" class="d-flex">
+      <div class="banner-card container">
+      </div>
+  </section>
+
+<!--buscador-->
+    <div class="container">
+      <h1>Buscá tu película</h1>
+      <input type="text" id="searchInput" placeholder="Ingrese el título de la película">
+      <button id="searchButton">Buscar</button>
+      <div id="results"></div>
+    </div>
+
+
+    <section id="top-rated">
+      <div class="container2">
+          <h2 class="h2-subtitle">Las más aclamadas!</h2>
+          <div id="top-rated-list" class="movies-flex movies-scroller">
+              <div class="movie-item-v2" >
+                  <div class="wrapper">
+                      <img src="https://image.tmdb.org/t/p/w200/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">Deadpool Wolverine</p>
+                      <p class="movie-item-detail-subtitle-v2">2024 - 9.7</p>
+                  </div>
+              </div>
+              <div class="movie-item-v2">
+                  <div class="wrapper">
+                      <img src="https://image.tmdb.org/t/p/w200/yrpPYKijwdMHyTGIOd1iK1h0Xno.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">Lugar tranquilo</p>
+                      <p class="movie-item-detail-subtitle-v2">2024 - 9</p>
+                  </div>
+              </div>
+              <div class="movie-item-v2">
+                  <div class="wrapper">
+                      <img src="https://image.tmdb.org/t/p/w200/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">Intensamente</p>
+                      <p class="movie-item-detail-subtitle-v2">20244 - 9.8</p>
+                  </div>
+              </div>
+              <div class="movie-item-v2">
+                  <div class="wrapper">
+                      <img src="https://image.tmdb.org/t/p/w200/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">Titanic</p>
+                      <p class="movie-item-detail-subtitle-v2">1997 - 10</p>
+                  </div>
+              </div>
+              <div class="movie-item-v2">
+                  <div class="wrapper">
+                      <img src="https://image.tmdb.org/t/p/w200/onTSipZ8R3bliBdKfPtsDuHTdlL.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">Mi pobre Angelito</p>
+                      <p class="movie-item-detail-subtitle-v2">1990 - 9.9</p>
+                  </div>
+              </div>
+              <div class="movie-item-v2">
+                  <div class="wrapper">
+                      <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">Spirited Away</p>
+                      <p class="movie-item-detail-subtitle-v2">2001 - 8.6</p>
+                  </div>
+              </div>
+              <div class="movie-item-v2">
+                  <div class="wrapper">
+                      <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">12 Angry Men</p>
+                      <p class="movie-item-detail-subtitle-v2">1957 - 8.5</p>
+                  </div>
+              </div>
+              <div class="movie-item-v2">
+                  <div class="wrapper">
+                      <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/q719jXXEzOoYaps6babgKnONONX.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">Your Name.</p>
+                      <p class="movie-item-detail-subtitle-v2">1016 - 8.5</p>
+                  </div>
+              </div>
+              <div class="movie-item-v2">
+                  <div class="wrapper">
+                      <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg" alt="" class="movie-item-img-v2">
+                  </div>
+                  <div class="movie-item-detail-v2">
+                      <p class="movie-item-detail-title-v2">Parasite</p>
+                      <p class="movie-item-detail-subtitle-v2">2019 - 8.5</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  
+    <script src="script.js"></script>
+  </body>
+</html>
