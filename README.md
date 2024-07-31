@@ -1,3 +1,7 @@
+Link para ver el proyecto [consumiendo Api Clima con JS](https://movie-js-search.netlify.app/).
+
+Subi al repositorio el código sin el js para proteger mi Api key pero lo puedo mostrar en una entrevista.
+
 ## Buscador de películas con JavaScript consumiendo API
 
 La aplicación utiliza la API de The Movie Database (TMDb) para buscar películas y mostrar sus detalles.
@@ -64,4 +68,5 @@ La función `displayMovies` se utiliza para mostrar los resultados de la búsque
             resultContainer.appendChild(movieDiv)
         })
     }
+
 # Movie-search
