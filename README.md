@@ -1,4 +1,4 @@
-Link para ver el proyecto [consumiendo Api Clima con JS](https://movie-js-search.netlify.app/).
+Link para ver el proyecto [consumiendo Api peliculas con JS](https://movie-js-search.netlify.app/).
 
 Subi al repositorio el código sin el js para proteger mi Api key pero lo puedo mostrar en una entrevista.
 
