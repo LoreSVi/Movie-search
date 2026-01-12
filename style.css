@@ -1,5 +1,5 @@
 :root {
-  --bg-color:#181419;
+  --bg-color: #181419;
   --primary-color: #f8eef0;
   --secondary-color: #f1f13b;
   --third-color: #9f3434f2;
@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: rgb(195, 195, 67);
 }
 
 a {
@@ -120,8 +120,6 @@ nav {
   background-size: cover;
   background-position: center;
   height: 350px;
-  /* GENERA UNA SOMBRA INTERNA EN LA SECCION DEL BANNER */
-  box-shadow: inset 0 0 0 2000px rgba(103, 103, 103, 0.5);
 }
 
 .container {
@@ -208,32 +206,33 @@ button {
   margin: 5px 0;
 }
 
-
 /*mas aclamadas */
 
-#popular,#top-rated {
+#popular,
+#top-rated {
   text-align: center;
 }
 
-#popular h2,#top-rated h2{
+#popular h2,
+#top-rated h2 {
   margin: 50px 0px;
 }
 
-.popular-buttons{
+.popular-buttons {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-.movies-grid{
+.movies-grid {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   justify-items: center;
   row-gap: 20px;
 }
 
-.movie-item{
+.movie-item {
   border-radius: 20px;
   /* cualquier contenido que se extienda más allá de los límites del contenedor será ocultado y 
   no será visible para el usuario. Esto puede ser útil para crear efectos de recorte 
@@ -247,7 +246,7 @@ button {
   cursor: pointer;
   transition: all 450ms;
   -webkit-transform-origin: center left;
-          transform-origin: center left;
+  transform-origin: center left;
 }
 
 .movie-item-img {
@@ -273,7 +272,7 @@ button {
   width: 100%;
 }
 
-.movie-item:hover{
+.movie-item:hover {
   /* modifica la opacididad del elemento al hacer hover */
   opacity: 0.9;
 }
@@ -295,15 +294,15 @@ button {
   margin: 3px 0px;
 }
 
-.movie-item-detail-subtitle::after{
-  content: '🌟';
+.movie-item-detail-subtitle::after {
+  content: "🌟";
 }
 
-#top-rated{
+#top-rated {
   margin: 50px 0px;
 }
 
-.movies-scroller{
+.movies-scroller {
   /* Esta propiedad controla cómo se maneja el desbordamiento horizontal,se mostrará una barra de desplazamiento horizontal */
   overflow-x: scroll;
   /* no se mostrará ninguna barra de desplazamiento vertical */
@@ -312,13 +311,12 @@ button {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding:0px 0px 40px 0px;
+  padding: 0px 0px 40px 0px;
 }
 
-
-.movie-item-v2{
+.movie-item-v2 {
   border-radius: 20px;
-  width: 170px;    
+  width: 170px;
   min-width: 170px;
   font-size: 20px;
   cursor: pointer;
@@ -328,17 +326,16 @@ button {
   justify-content: space-between;
   transition: 450ms all;
   transform-origin: center left;
-  
 }
 
 .wrapper {
   /* Esta propiedad establece una sombra alrededor del contenedor. */
-  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   width: 100%;
   /* Esta propiedad establece la altura del contenedor. Utiliza la función calc() 
   para calcular la altura mínima como el resultado de multiplicar 150 píxeles por 1.5 */
-  height: calc(150px*1.5);
+  height: calc(150px * 1.5);
   overflow: hidden;
 }
 
@@ -371,7 +368,6 @@ button {
   margin: 3px 0px;
 }
 
-.movie-item-detail-subtitle-v2::after{
-  content: '🌟';
+.movie-item-detail-subtitle-v2::after {
+  content: "🌟";
 }
-
